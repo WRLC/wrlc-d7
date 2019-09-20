@@ -1,0 +1,71 @@
+
+.simplemenu-block {
+
+  background-color:#076293;
+  
+height: 55px;
+}
+#simplemenu {
+  background: #000;
+ /* color: #fff;
+  font:11px Verdana, Helvetica, sans-serif;*/
+  width: 100%;
+  text-align: left;
+  
+  font: 13px Arial,sans-serif;
+font-weight: normal;
+
+  
+}
+#simplemenu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 12px 5px 12px;
+  width: auto;
+}
+
+
+
+#simplemenu a[target="_blank"], #simplemenu a[target="_blank"]:Hover {border:0px solid silver !important; }
+
+
+#simplemenu a:hover {color:#fff !important;}
+
+#simplemenu li {
+  background: transparent;
+}
+#simplemenu li.expanded > a {
+  background: url(arrow_right.gif) no-repeat 94% 70%;
+  padding-right: 18px;
+  padding-top:18px;
+}
+#simplemenu li.root > a {
+  background: url(arrow_down.gif) no-repeat 94% 70%;
+  padding-right: 18px;
+  padding-top:18px;
+}
+#simplemenu li:hover, #simplemenu li.sfHover,
+#simplemenu a:focus, #simplemenu a:hover, #simplemenu a:active {
+ /* background: #4c77b3;*/
+  color: #fff;
+}
+#simplemenu li ul {
+  border: 1px solid #ccc;
+  /*background: #fafcff;*/
+  background: #fff;
+  margin-top:18px;
+  font-size:.9em;
+}
+#simplemenu li ul a {
+  color: #4e4e4e; 
+  height: auto;
+}
+#simplemenu li ul li:hover, #simplemenu li ul li.sfHover,
+#simplemenu li ul a:focus, #simplemenu li ul a:hover, #simplemenu li ul a:active {
+  /*background-color: #cde;*/
+  color: #000 !important; background-color:#eee !important;
+  
+}
+
+/* vim: ts=2 sw=2 et syntax=css
+*/

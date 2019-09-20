@@ -1,0 +1,84 @@
+/* All Responsive
+================================================== */
+	#sidr-main {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  width: 320px;
+  overflow-x: none;
+  overflow-y: auto;
+  font-size: 13px;
+  background: #076293;
+  color: #fff;
+}
+
+#sidr-main a {
+  color: #fff; text-decoration:none;
+}
+
+
+
+
+
+
+/* Mobile (Portrait & Landscape)
+================================================== */
+@media only screen and (max-width: 767px) {
+	#site-logo img {max-width:90%;}
+	.sidebar-container {
+  margin-top: 0;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+#search-form input#edit-keys, #block-search-form .form-item-search-block-form input {
+  float: left;
+  font-size: 1em;
+  height: 1.143em;
+  margin-right: 5px;
+  margin-top:20px;
+  width: 80%;
+  border:1px solid silver;
+}
+#search-block-form input.form-submit {float:left; position:relative; margin:20px 0 0 0;}
+
+
+#footer-wrap {
+  background: #fff;
+ 
+  margin: 0 0 0;
+  padding: 30px;
+  overflow: hidden;
+  border-top:1px solid #eee;
+ width:auto;
+}
+
+#footer {
+	padding:20px;
+	
+}
+
+#copyright-wrap {
+  background: #fff;
+  border-top: 1px solid #eee;
+  margin: 0 0 0;
+  padding: 20px 30px;
+  color: #666;
+  text-align: center;
+  width:auto;
+ 
+}
+
+
+}
+/* Mobile (Landscape)
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#site-logo img {max-width:400px;}
+	
+	
+	
+	
+}

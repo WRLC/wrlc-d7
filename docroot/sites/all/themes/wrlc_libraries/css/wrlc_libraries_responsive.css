@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans:400,600");
+
+/* All Responsive
+================================================== */
+	#sidr-main {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+  width: 320px;
+  overflow-x: none;
+  overflow-y: auto;
+  font-size: 13px;
+  background: #076293;
+  color: #fff;
+}
+
+#sidr-main a {
+  color: #fff; text-decoration:none;
+}
+
+
+
+
+
+
+/* Mobile (Portrait & Landscape)
+================================================== */
+@media only screen and (max-width: 767px) {
+	#site-logo img {max-width:90%;}
+	.sidebar-container {
+  margin-top: 0;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+#search-form input#edit-keys, #block-search-form .form-item-search-block-form input {
+  float: left;
+  font-size: 1em;
+  height: 1.143em;
+  margin-right: 5px;
+  margin-top:20px;
+  width: 80%;
+  border:1px solid silver;
+}
+#search-block-form input.form-submit {float:left; position:relative; margin:20px 0 0 0;}
+
+
+}
+/* Mobile (Landscape)
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#site-logo img {max-width:400px;}
+	
+	
+	
+	
+}

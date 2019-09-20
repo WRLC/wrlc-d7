@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Custom CSS for the Twitter block display.
+ */
+
+.twitter_block_user {
+  display: none;
+}
+
+#twitter_block_results li {
+  list-style: none;
+  border: 0px 0px 0px 0px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.tweet {
+	 font-size:11px;
+	 line-height:12px;
+}
+
+.twitter_block_user img {
+	display:none;
+  float: left;
+  height: 48px;
+  width:  48px;
+}
+.twitter_block_user_name {
+		display:none;
+  display: block;
+  padding-right: 5px;
+  float: left;
+  line-height: 48px;
+}
+
+p.tweet {
+  display: block;
+  float: left;
+  clear: all;
+  padding-bottom:10px;
+  border-bottom:1px dashed #ededed;
+ 
+}

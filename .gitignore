@@ -1,0 +1,54 @@
+# Ignore windows thumbnails
+Thumbs.db
+
+# Ignore IDE files
+.idea
+/nbproject/private/
+.DS_Store
+*~
+.bak
+/docroot/FirePHPCore
+/docroot/phpinfo.php
+.editorconfig
+
+# Ignore Drupal core files we don't want to keep in a deployed site.
+/docroot/.gitignore
+/docroot/xmlrpc.php
+# Normally web.config is ignored but for Windows users it may be necessary.
+# /docroot/web.config
+/docroot/install.php
+/docroot/authorize.php
+/docroot/cron.php
+/docroot/update.php
+
+# Ignore contrib modules/themes/libraries we don't want to keep in a deployed site.
+/docroot/sites/all/modules/profiler_builder
+# /docroot/sites/all/libraries/profiler
+
+# Ignore paths that contain user-generated content.
+/docroot/sites/*/files
+
+UPGRADE.txt
+# Individual sites may want the robots.txt file though many will use robotstxt module instead.
+robots.txt
+README.txt
+MAINTAINERS.txt
+LICENSE.txt
+INSTALL.txt
+INSTALL.sqlite.txt
+INSTALL.pgsql.txt
+INSTALL.mysql.txt
+COPYRIGHT.txt
+CHANGELOG.txt
+
+# Ignore LetsEncrypt's .well-known folder
+.well-known
+
+# Ignore local settings file
+settings.local.php
+
+# Ignore key files
+/keys
+
+# Ignore database backups
+*.sql

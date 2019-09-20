@@ -1,0 +1,3 @@
+name = Full Edit
+description = A module that prevents wysiwyg editor from stripping custom code.
+core = 7.x
